@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connections Tools from Meta</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background:#35465d;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.left-panel, .right-panel {
+    padding: 40px;
+    flex: 1;
+}
+
+.left-panel {
+    background: #d5d8dc;
+}
+
+.left-panel h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.left-panel h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.left-panel p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.left-panel ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
+}
+
+.left-panel ul li {
+    margin-bottom: 10px;
+}
+
+.meta-logo {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-panel h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.login-btn {
+    width: 40%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 2px solid #b9b3b3;
+    border-radius: 8px;
+    background: #35465d;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+    
+
+}
+
+.login-btn img {
+    width: 24px;
+    height: 24px;
+}
+
+.facebook {
+    border-color: #35465d;
+    color: #35465d;
+}
+
+.instagram {
+    border-color: #e1306c;
+    color: #e1306c;
+}
+
+.login-btn:hover {
+    background: #647791;
+}
+.a{
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    font: bold;
+}
+.create-account {
+    margin-top: 10px;
+    color: #35465d;
+    cursor: pointer;
+}
+
+hr {
+    margin: 30px 0;
+    width: 100%;
+    border: 1px solid #eee;
+}
+
+.right-panel p {
+    font-size: 14px;
+    color: #777;
+    text-decoration: none;
+}
+
+ /* Responsive Part */
+ @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                border-radius: 0;
+            }
+            .left-panel, .right-panel {
+                padding: 30px 20px;
+            }
+            .left-panel h1 {
+                font-size: 28px;
+            }
+            .left-panel h2 {
+                font-size: 22px;
+            }
+            .right-panel h2 {
+                font-size: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .login-btn {
+                width: 100%;
+            }
+            .left-panel h1 {
+                font-size: 24px;
+            }
+            .left-panel h2, .right-panel h2 {
+                font-size: 18px;
+            }
+            .left-panel p, .right-panel p {
+                font-size: 14px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <!-- <img src="your-linker-logo.png" alt="Linker Logo" class="linker-logo"> -->
+            <h1>Build Connections Tools from Linker</h1>
+            <h2>Start Using</h2>
+            <p>Login to connect with your peoples and grow your Connections more effectively using 
+            <b>Linker Connections Suite</b>, <b>Connections Manager</b>, and <b>Ads Manager</b>. Manage your tasks and operations easily in one place.</p>
+
+            <ul>
+                <li>Access everything you need to manage your Connections on Linker and Messenger in one place</li>
+                <li>Connect with important people using a single account</li>
+                <li>Track performance insights on Linker technology</li>
+            </ul>
+        </div>
+
+        <div class="right-panel">
+            <h2>Let's Explore the Linker </h2>
+
+            <button  class="login-btn linker-login" >
+                <!-- <img src="your-linker-icon.png" alt="Linker Icon"> -->
+                <a href="SignInUp.html"  style="color: #f6f7f9;" ><p>Login/SignUp To Linker </a>
+            </button>
+
+            <!-- <a class="create-account" href="SignInUp.html">Create a new Linker account</a> -->
+            <p>Connect. Create. Grow with Linker.</p>
+            <hr>
+
+            <!-- <p>Login using your managed Linker account</p> -->
+        </div>
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
